@@ -1,0 +1,11 @@
+/home/marcel/Development/Dotnet/JekyllFixer/bin/Debug/netcoreapp2.0/JekyllFixer.deps.json
+/home/marcel/Development/Dotnet/JekyllFixer/bin/Debug/netcoreapp2.0/JekyllFixer.runtimeconfig.json
+/home/marcel/Development/Dotnet/JekyllFixer/bin/Debug/netcoreapp2.0/JekyllFixer.runtimeconfig.dev.json
+/home/marcel/Development/Dotnet/JekyllFixer/bin/Debug/netcoreapp2.0/JekyllFixer.dll
+/home/marcel/Development/Dotnet/JekyllFixer/bin/Debug/netcoreapp2.0/JekyllFixer.pdb
+/home/marcel/Development/Dotnet/JekyllFixer/obj/Debug/netcoreapp2.0/JekyllFixer.csproj.CoreCompileInputs.cache
+/home/marcel/Development/Dotnet/JekyllFixer/obj/Debug/netcoreapp2.0/JekyllFixer.AssemblyInfoInputs.cache
+/home/marcel/Development/Dotnet/JekyllFixer/obj/Debug/netcoreapp2.0/JekyllFixer.AssemblyInfo.cs
+/home/marcel/Development/Dotnet/JekyllFixer/obj/Debug/netcoreapp2.0/JekyllFixer.dll
+/home/marcel/Development/Dotnet/JekyllFixer/obj/Debug/netcoreapp2.0/JekyllFixer.pdb
+/home/marcel/Development/Dotnet/JekyllFixer/obj/Debug/netcoreapp2.0/JekyllFixer.csprojResolveAssemblyReference.cache
