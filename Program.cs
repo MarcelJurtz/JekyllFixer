@@ -33,7 +33,6 @@ namespace JekyllFixer
             Console.WriteLine($"Found {files.Count} invalid files");
             foreach(var file in files)
             {
-                Console.WriteLine($"{file} contained in List? {excludes.Contains(file)}");
                 if(excludes.Contains(file))
                     continue;
 
