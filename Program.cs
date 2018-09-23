@@ -28,6 +28,11 @@ namespace JekyllFixer
                 jekyllPath = RequestDirectory(MAX_INPUTS);
             }
 
+            bool automaticMode = false;
+            Console.WriteLine("Use automatic mode? y/N?");
+            if(Console.ReadKey().Key == ConsoleKey.Y)
+                automaticMode = true;
+
             // Search for posts
             var files = FindInvalidJekyllFiles(jekyllPath);
             Console.WriteLine($"Found {files.Count} invalid files");
@@ -37,8 +42,11 @@ namespace JekyllFixer
                     continue;
 
                 string fileName = Path.GetFileNameWithoutExtension(file);
-                Console.WriteLine($"Move {fileName} to {fileName}/index.html? (Y/n)");
-                if(Console.ReadKey().Key == ConsoleKey.Enter || Console.ReadKey().Key == ConsoleKey.Y) {
+
+                if(!automaticMode)
+                    Console.WriteLine($"Move {fileName} to {fileName}/index.html? (Y/n)");
+
+                if(automaticMode || Console.ReadKey().Key == ConsoleKey.Enter || Console.ReadKey().Key == ConsoleKey.Y) {
                     // Move file to folder and rename to index.html
                     string newFolderPath = Path.Combine(Path.GetDirectoryName(file), fileName);
                     Directory.CreateDirectory(newFolderPath);
