@@ -75,7 +75,7 @@ namespace JekyllFixer
                 jekyllPath = Console.ReadLine();
                 inputs++;
             }
-            while(!Directory.Exists(jekyllPath) && inputs < MAX_INPUTS);
+            while(!Directory.Exists(jekyllPath) && inputs < maxTries);
 
             if(!Directory.Exists(jekyllPath)) {
                 Console.WriteLine("Invalid path entered. Press any key to terminate.");
